@@ -1,4 +1,4 @@
-# StealthEdtechAssignment
+# Stealth Edtech Assignment
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -6,7 +6,27 @@
 
 ## Development server
 
-Run `nx serve app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+### Prerequisite
+
+- Docker - v20
+- Node.js - >=v16
+- npm - >=v8
+- replicate `.env.sample` and rename to `.env`, put all required value in it
+
+### Docker setup
+
+- Docker is used for local development database setup
+- run following command in root folder
+- `docker compose -f docker-compose.yml up`
+
+### Installation
+
+- `npm install`
+- `npm run prisma -- db push` - to push prisma schema to database
+- `npm run api:dev` - to run backend api server
+- `npm run app:dev` - to run frontend nextjs server
+
+---
 
 ## Understand this workspace
 
