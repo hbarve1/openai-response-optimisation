@@ -17,7 +17,7 @@
 
 - Docker is used for local development database setup
 - run following command in root folder
-- `docker compose -f docker-compose.yml up`
+- `docker compose -f docker/docker-compose.yml up`
 
 ### Installation
 
