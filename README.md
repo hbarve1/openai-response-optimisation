@@ -23,8 +23,9 @@
 
 - `npm install`
 - `npm run prisma -- db push` - to push prisma schema to database
-- `npm run api:dev` - to run backend api server
-- `npm run app:dev` - to run frontend nextjs server
+- `npm run dev:api` - to run backend api server
+- `npm run dev:app` - to run frontend nextjs server
+- `npx prisma studio` - to run prisma GUI linked with database
 
 ---
 
